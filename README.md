@@ -6,7 +6,7 @@ Codes for paper "A Dynamic Subspace Based BFGS Method for Large Scale Optimizati
 The Fast-BFGS performance better than BFGS and L-BFGS in the number of function and gradient evaluations (nfg) with the termination criterion $\| \nabla f_k \|_2 < 10^{-5}$ and $m=8$.
 
 | name     | n    | GD    | BFGS  | L-BFGS | Fast-BFGS(sec=F) | Fast-BFGS(sec=T) |
-| name     | n    |       |       |        | sec=F | sec=T |
+| ---      | ---  | ---   | ---   | ---    | ---   | ---   |
 | ARWHEAD  | 1000 | >1000 | 39    | 24     | 12    | 12    |
 | BDQRTIC  | 1000 | >1000 | --    | --     | 295   | 589   |
 | BDEXP    | 1000 | >1000 | 19    | 19     | 19    | 19    |
